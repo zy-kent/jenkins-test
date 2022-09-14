@@ -1,0 +1,8 @@
+version: '3'
+services:
+  nodea:
+    build:
+      context: .
+      dockerfile: node.Dockerfile
+    ports:
+      - 4003:80
